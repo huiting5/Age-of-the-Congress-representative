@@ -1,5 +1,6 @@
 **Data Resources**
 * US percentage population of age groups over time dataset:
+  
 Description: Persons in selected age groups as a percentage of the total U.S. population and children ages 0–17 as a percentage of the dependent population, 1950–2022 and projected 2023–2050.
 
 Website: github
@@ -7,6 +8,7 @@ Website: github
 Link: https://www.childstats.gov/americaschildren/tables/pop2.asp
 
 * Aging congress dataset:
+  
 Description: This directory contains various demographic data about the United States Senate and House of Representatives over time. It’s been used in the following FiveThirtyEight articles: Congress Today Is Older Than It’s Ever Been, by Geoffrey Skelley (April 3, 2023). The dataet contains information about the age of every member of the U.S. Senate and House from the 66th Congress (1919-1921) to the 118th Congress (2023-2025). Data is as of March 29, 2023, and is based on all voting members who served in either the Senate or House in each Congress. The data excludes delegates or resident commissioners from non-states. Any member who served in both chambers in the same Congress was assigned to the chamber in which they cast more votes. We began with the 66th Congress because it was the first Congress in which all senators had been directly elected, rather than elected by state legislatures, following the ratification of the 17th Amendment in 1913.
 
 Website: Childstats
@@ -22,6 +24,7 @@ Link: https://github.com/jasonong/List-of-US-States/blob/master/states.csv
 
 **Variable Description of datasets**
 * US percentage population of age groups over time dataset:
+  
 congress: The number of the Congress that this member’s row refers to.
 
 start_date: First day of a Congress.
@@ -55,6 +58,7 @@ age_group: Convert the Generations in the data to the defined year range
 party: Convert the party code to the name of the party which the code represent.
 
 * Aging congress dataset:
+  
 Age group as a percentage of total population:
 
 ages 0-17
@@ -68,7 +72,9 @@ Age group as a percentage of the dependent population:
 ages 0-17
 
 * State Label
+  
 State
+
 Abbreviation
 
 **Research Questions**
